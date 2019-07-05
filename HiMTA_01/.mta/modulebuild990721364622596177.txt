@@ -1,0 +1,50 @@
+npm ERR! path C:\Users\yauhen.lushchyk\.config\configstore\update-notifier-npm.json.2650951513
+npm ERR! code EPERM
+npm ERR! errno -4048
+npm ERR! syscall rename
+npm ERR! Error: EPERM: operation not permitted, rename 'C:\Users\yauhen.lushchyk\.config\configstore\update-notifier-npm.json.2650951513' -> 'C:\Users\yauhen.lushchyk\.config\configstore\update-notifier-npm.json'
+npm ERR!     at Object.renameSync (fs.js:593:3)
+npm ERR!     at Function.writeFileSync [as sync] (C:\Program Files\nodejs\node_modules\npm\node_modules\write-file-atomic\index.js:192:8)
+npm ERR!     at Configstore.set all [as all] (C:\Program Files\nodejs\node_modules\npm\node_modules\configstore\index.js:58:20)
+npm ERR!     at Configstore.delete (C:\Program Files\nodejs\node_modules\npm\node_modules\configstore\index.js:98:12)
+npm ERR!     at UpdateNotifier.check (C:\Program Files\nodejs\node_modules\npm\node_modules\update-notifier\index.js:87:22)
+npm ERR!     at module.exports.options (C:\Program Files\nodejs\node_modules\npm\node_modules\update-notifier\index.js:151:17)
+npm ERR!     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:85:48)
+npm ERR!     at process._tickCallback (internal/process/next_tick.js:61:11)
+npm ERR!  { Error: EPERM: operation not permitted, rename 'C:\Users\yauhen.lushchyk\.config\configstore\update-notifier-npm.json.2650951513' -> 'C:\Users\yauhen.lushchyk\.config\configstore\update-notifier-npm.json'
+npm ERR!     at Object.renameSync (fs.js:593:3)
+npm ERR!     at Function.writeFileSync [as sync] (C:\Program Files\nodejs\node_modules\npm\node_modules\write-file-atomic\index.js:192:8)
+npm ERR!     at Configstore.set all [as all] (C:\Program Files\nodejs\node_modules\npm\node_modules\configstore\index.js:58:20)
+npm ERR!     at Configstore.delete (C:\Program Files\nodejs\node_modules\npm\node_modules\configstore\index.js:98:12)
+npm ERR!     at UpdateNotifier.check (C:\Program Files\nodejs\node_modules\npm\node_modules\update-notifier\index.js:87:22)
+npm ERR!     at module.exports.options (C:\Program Files\nodejs\node_modules\npm\node_modules\update-notifier\index.js:151:17)
+npm ERR!     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:85:48)
+npm ERR!     at process._tickCallback (internal/process/next_tick.js:61:11)
+npm ERR!   stack:
+npm ERR!    'Error: EPERM: operation not permitted, rename \'C:\\Users\\yauhen.lushchyk\\.config\\configstore\\update-notifier-npm.json.2650951513\' -> \'C:\\Users\\yauhen.lushchyk\\.config\\configstore\\update-notifier-npm.json\'\n    at Object.renameSync (fs.js:593:3)\n    at Function.writeFileSync [as sync] (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\write-file-atomic\\index.js:192:8)\n    at Configstore.set all [as all] (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\configstore\\index.js:58:20)\n    at Configstore.delete (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\configstore\\index.js:98:12)\n    at UpdateNotifier.check (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\update-notifier\\index.js:87:22)\n    at module.exports.options (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\update-notifier\\index.js:151:17)\n    at EventEmitter.<anonymous> (C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js:85:48)\n    at process._tickCallback (internal/process/next_tick.js:61:11)',
+npm ERR!   errno: -4048,
+npm ERR!   syscall: 'rename',
+npm ERR!   code: 'EPERM',
+npm ERR!   path:
+npm ERR!    'C:\\Users\\yauhen.lushchyk\\.config\\configstore\\update-notifier-npm.json.2650951513',
+npm ERR!   dest:
+npm ERR!    'C:\\Users\\yauhen.lushchyk\\.config\\configstore\\update-notifier-npm.json' }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It's possible that the file was already in use (by a text editor or antivirus),
+npm ERR! or that you lack permissions to access it.
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator (though this is not recommended).
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\yauhen.lushchyk\AppData\Roaming\npm-cache\_logs\2019-05-28T20_53_48_300Z-debug.log
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@0. I'll try to do my best with it!
+npm WARN service@1.0.0 No description
+npm WARN service@1.0.0 No repository field.
+npm WARN service@1.0.0 No license field.
+
+audited 841 packages in 4.17s
+found 6 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details

@@ -1,0 +1,45 @@
+
+> @sap/hana-client@2.3.123 install C:\temp\HiMTA_03\backend\db\node_modules\@sap\hana-client
+> node build.js
+
+{ Error: Command failed: node-gyp configure
+gyp ERR! configure error 
+gyp ERR! stack Error: Command failed: C:\Users\yauhen.lushchyk\AppData\Local\Programs\Python\Python37-32\python.EXE -c import sys; print "%s.%s.%s" % sys.version_info[:3];
+gyp ERR! stack   File "<string>", line 1
+gyp ERR! stack     import sys; print "%s.%s.%s" % sys.version_info[:3];
+gyp ERR! stack                                ^
+gyp ERR! stack SyntaxError: invalid syntax
+gyp ERR! stack 
+gyp ERR! stack     at ChildProcess.exithandler (child_process.js:294:12)
+gyp ERR! stack     at ChildProcess.emit (events.js:189:13)
+gyp ERR! stack     at maybeClose (internal/child_process.js:970:16)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+gyp ERR! System Windows_NT 10.0.17134
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "configure"
+gyp ERR! cwd C:\temp\HiMTA_03\backend\db\node_modules\@sap\hana-client
+gyp ERR! node -v v10.15.3
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok 
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:189:13)
+    at maybeClose (internal/child_process.js:970:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: 'node-gyp configure' } '\r\nC:\\temp\\HiMTA_03\\backend\\db\\node_modules\\@sap\\hana-client>if not defined npm_config_node_gyp (node "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin\\\\..\\..\\node_modules\\node-gyp\\bin\\node-gyp.js" configure )  else (node "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" configure ) \r\n'
+npm WARN deploy@ No description
+npm WARN deploy@ No repository field.
+npm WARN deploy@ No license field.
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 4294967295
+npm ERR! @sap/hana-client@2.3.123 install: `node build.js`
+npm ERR! Exit status 4294967295
+npm ERR! 
+npm ERR! Failed at the @sap/hana-client@2.3.123 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\yauhen.lushchyk\AppData\Roaming\npm-cache\_logs\2019-07-05T02_13_33_138Z-debug.log

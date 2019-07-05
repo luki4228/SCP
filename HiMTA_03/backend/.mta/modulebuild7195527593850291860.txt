@@ -1,0 +1,56 @@
+npm WARN deprecated nodemailer@2.4.2: All versions below 4.0.1 of Nodemailer are deprecated. See https://nodemailer.com/status/
+npm WARN deprecated mailcomposer@3.9.0: This project is unmaintained
+npm WARN deprecated socks@1.1.9: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+npm WARN deprecated hawk@6.0.2: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated buildmail@3.7.0: This project is unmaintained
+npm WARN deprecated cryptiles@3.1.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated boom@4.3.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated sntp@2.1.0: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated boom@5.2.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
+> @sap/fibers@2.0.2-0 preinstall C:\temp\HiMTA_03\backend\srv\node_modules\@sap\fibers
+> node preinstall.js
+
+
+> @sap/fibers@2.0.2-0 install C:\temp\HiMTA_03\backend\srv\node_modules\@sap\fibers
+> node build.js || nodejs build.js
+
+
+C:\temp\HiMTA_03\backend\srv\node_modules\@sap\fibers>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild --release )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild --release ) 
+gyp ERR! configure error 
+gyp ERR! stack Error: Command failed: C:\Users\yauhen.lushchyk\AppData\Local\Programs\Python\Python37-32\python.EXE -c import sys; print "%s.%s.%s" % sys.version_info[:3];
+gyp ERR! stack   File "<string>", line 1
+gyp ERR! stack     import sys; print "%s.%s.%s" % sys.version_info[:3];
+gyp ERR! stack                                ^
+gyp ERR! stack SyntaxError: invalid syntax
+gyp ERR! stack 
+gyp ERR! stack     at ChildProcess.exithandler (child_process.js:294:12)
+gyp ERR! stack     at ChildProcess.emit (events.js:189:13)
+gyp ERR! stack     at maybeClose (internal/child_process.js:970:16)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+gyp ERR! System Windows_NT 10.0.17134
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+gyp ERR! cwd C:\temp\HiMTA_03\backend\srv\node_modules\@sap\fibers
+gyp ERR! node -v v10.15.3
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok 
+node-gyp exited with code: 1
+Please make sure you are using a supported platform and node version. If you
+would like to compile fibers on this machine please make sure you have setup your
+build environment--
+Windows + OS X instructions here: https://github.com/nodejs/node-gyp
+Ubuntu users please run: `sudo apt-get install g++ build-essential`
+Alpine users please run: `sudo apk add python make g++`
+'nodejs' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @sap/fibers@2.0.2-0 install: `node build.js || nodejs build.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @sap/fibers@2.0.2-0 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\yauhen.lushchyk\AppData\Roaming\npm-cache\_logs\2019-07-05T02_13_58_281Z-debug.log
